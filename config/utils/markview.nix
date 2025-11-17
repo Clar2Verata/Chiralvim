@@ -20,8 +20,8 @@
       ];
     in
     {
-      
-      lazyLoad.settings.ft = filetypes;
+      enable = true;
+      #lazyLoad.settings.ft = filetypes;
 
       settings = {
         preview = {
