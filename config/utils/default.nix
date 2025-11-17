@@ -28,6 +28,7 @@
     ./wakatime.nix
     ./which-key.nix
     ./wilder.nix
+    ./markview.nix
   ];
 
   options = {
@@ -38,6 +39,7 @@
     cloak.enable = lib.mkDefault true;
     harpoon.enable = lib.mkDefault true;
     markdown-preview.enable = lib.mkDefault false;
+    markview.enable = lib.mkDefault true;
     mini.enable = lib.mkDefault true;
     neocord.enable = lib.mkDefault true;
     neotest.enable = lib.mkDefault true;
