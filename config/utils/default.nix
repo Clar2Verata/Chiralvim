@@ -29,6 +29,7 @@
     ./which-key.nix
     ./wilder.nix
     ./markview.nix
+    ./smear-cursor.nix
   ];
 
   options = {
@@ -59,5 +60,6 @@
     wakatime.enable = lib.mkDefault false;
     which-key.enable = lib.mkDefault true;
     wilder.enable = lib.mkDefault false;
+    smear-cursor.enable = lib.mkDefault true;
   };
 }
