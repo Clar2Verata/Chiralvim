@@ -6,9 +6,9 @@
   config = lib.mkIf config.nightfox.enable {
     colorschemes.nightfox = {
         enable = true;
-        options = {
+        
           flavor = "dawnfox";
-        };
+        
     };
   };
 }
