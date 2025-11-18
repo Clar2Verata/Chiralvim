@@ -8,9 +8,9 @@
         enable = true;
         settings = {
           background = "soft";
-          enable_italic = true;
+          enable_italic = 1;
           cursor = "yellow";
-          transparent_background = 0;
+          transparent_background = 1;
           float_style = "dim";
           current_word = "italic";
         };
