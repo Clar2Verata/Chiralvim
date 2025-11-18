@@ -9,6 +9,7 @@
     ./catppuccin.nix
     ./rose-pine.nix
     ./nightfox.nix
+    ./everforest.nix
   ];
 
   options = {
@@ -18,6 +19,7 @@
     base16.enable = lib.mkDefault false;
     catppuccin.enable = lib.mkDefault false;
     rose-pine.enable = lib.mkDefault false;
-    nightfox.enable = lib.mkDefault true;
+    nightfox.enable = lib.mkDefault false;
+    everforest.enable = lib.mkDefault true;
   };
 }
